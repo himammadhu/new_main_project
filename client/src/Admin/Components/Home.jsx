@@ -4,7 +4,7 @@ import axios from 'axios'
 const Home = () => {
 
   useEffect(() => {
-    axios.get('http://localhost:5000/Test/').then((response) =>{
+    axios.get('http://localhost:5000/Test1/').then((response) =>{
       console.log(response);
     })
   },[])
